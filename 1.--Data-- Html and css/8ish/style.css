@@ -1,0 +1,252 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 253, 226);
+    display: flex;
+    align-self: center;
+    background-image: url('https://cutewallpaper.org/23/abstract-purple-blue-wallpaper/270017730.jpg');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(50, 54, 75);
+    width: 300px;
+    height: avto;
+    margin: 100px 0 0 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.44);
+}
+
+.box1:hover{
+    transform: translateY(-10px);
+    transition:all 1s ease ;
+    box-shadow: 0px 15px 27px 6px rgba(34, 60, 80, 0.33);
+}
+
+.box2:hover{
+    transform: translateY(-10px);
+    transition:all 1s ease ;
+    box-shadow: 0px 15px 27px 6px rgba(34, 60, 80, 0.33);
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.icon-two {
+    margin-left: 5px;
+}
+
+main {
+    text-align: center;
+
+}
+
+.img-back {
+    position: relative;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(218, 215, 215);
+    box-shadow: 22px 24px 38px -5px rgba(18, 31, 50, 0.964);
+}
+
+.done-icon {
+    background: rgb(115, 12, 120);
+    background: linear-gradient(85deg, rgba(115, 12, 120, 1) 8%, rgba(252, 45, 230, 1) 91%);
+    border-radius: 60px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 180px;
+}
+
+.bi-check {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: flex-end;
+
+}
+
+.title-one {
+    margin: 0;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.text-one {
+    margin: 0;
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+}
+
+.text-two {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(168, 168, 168);
+    font-size: 17px;
+    margin-bottom: 10PX;
+}
+
+button {
+    padding: 0px;
+    background: rgb(115, 12, 120);
+    background: linear-gradient(85deg, rgba(115, 12, 120, 1) 8%, rgba(252, 45, 230, 1) 91%);
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 20PX;
+    text-align: center;
+    box-shadow: 20px 18px 28px -10px rgba(34, 60, 80, 0.7);
+    margin: 10px;
+}
+
+button:active{
+    transform: scale(0.9) rotate(-10deg);
+    transition: all 1s ease;
+}
+
+.line-one {
+    width: 260px;
+    height: 1px;
+    background-color: #717171;
+    margin: 15px 0 0 20px;
+}
+
+.box-liner {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+}
+
+.bi-telegram {
+    color: rgb(76, 145, 241);
+    font-size: 46px;
+
+
+}
+
+.text-box1 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #ffffff;
+}
+
+.title-box1 {
+    font-size: 15px;
+    color: #605f5f;
+    margin: 0;
+    font-weight: 500;
+}
+
+.bi-facebook {
+    color: rgb(76, 145, 241);
+    font-size: 46px;
+
+
+}
+
+.text-box2 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #ffffff;
+}
+
+.title-box2 {
+    font-size: 15px;
+    color: #605f5f;
+    margin: 0;
+    font-weight: 500;
+}
+
+.bi-twitter {
+    color: rgb(76, 145, 241);
+    font-size: 46px;
+
+
+}
+
+.text-box3 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #ffffff;
+}
+
+.title-box3 {
+    font-size: 15px;
+    color: #605f5f;
+    margin: 0;
+    font-weight: 500;
+}
+
+.box2 {
+    background-color: rgb(245, 245, 248);
+    width: 300px;
+    height: avto;
+    margin: 100px 0 0 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.44);
+}
+
+.icons-black {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.title-two {
+    margin: 0;
+    color: #000000;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.text-box4 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #000000;
+}
+
+.text-box5 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #000000;
+}
+
+.text-box6 {
+    font-weight: 600;
+    font-size: 20PX;
+    margin: 0;
+    color: #000000;
+}
+
+.img-back1 {
+    position: relative;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(218, 215, 215);
+    box-shadow: 20px 18px 24px -6px rgba(34, 60, 80, 0.33);
+}

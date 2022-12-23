@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 800px;
+}
+
+.logoo {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.logo i {
+    margin: 10px;
+    color: rgb(13, 13, 184);
+}
+
+.logo-text {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+    padding: 25px;
+    font-weight: 500;
+}
+
+li.active {
+    color: rgb(13, 13, 184);
+}
+
+li i {
+
+    padding: 15px;
+}
+
+.button-one {
+    background-color: rgb(235, 235, 235);
+    width: 250px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px;
+    width: 130px;
+    border-radius: 20PX;
+    border: none;
+    align-items: center;
+    background-color: rgb(13, 13, 184);
+    color: white;
+    font-weight: 500;
+}
+
+main {
+    background-color: rgb(235, 235, 235);
+    width: 900px;
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+nav .title-nav {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 0 30px;
+}
+
+nav .nav-icons {
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 30px;
+    color: rgb(78, 78, 78);
+
+}
+
+.nav-icons .title-nav-two {
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-icons .icon {
+    background-color: rgb(222, 222, 222);
+    color: rgb(59, 59, 248);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-foto img {
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header-boxs {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.boxs-img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.boxs-img1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-title1 {
+
+    font-weight: 600;
+    margin-left: 30px;
+
+}
+
+.footer-text2 {
+    margin: 0;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.footer-text2 i {
+    margin-left: 5px;
+}
+
+.boxx {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    background-color: rgb(69, 0, 133);
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.boxx-title {
+    background-color: rgb(94, 49, 136);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+    color: white;
+
+}
+
+.boxx-title p {
+    align-items: center;
+    margin: 10px;
+}
+
+.boss {
+    color: white;
+}
+
+.boss .text-btn1 {
+    color: rgb(183, 183, 183);
+    margin: 0;
+}
+
+.tetle-no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box2 {
+    background-color: rgb(0, 90, 24);
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.boxx-title1 {
+    background-color: rgb(62, 240, 80);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+    color: white;
+
+}
+
+.boxx-title1 p {
+    align-items: center;
+    margin: 10px;
+}
+
+.boss {
+    color: white;
+}
+
+.boss .text-btn2 {
+    color: rgb(183, 183, 183);
+    margin: 0;
+}
+
+.box3 {
+    background-color: rgb(151, 3, 3);
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+.boxx-title2 {
+    background-color: rgb(225, 68, 68);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+    color: white;
+
+}
+
+.boxx-title2 p {
+    align-items: center;
+    margin: 10px;
+}
+
+.boss {
+    color: white;
+}
+
+.boss .text-btn3 {
+    color: rgb(183, 183, 183);
+    margin: 0;
+}
+footer{
+    width: 340px;
+}
+.foter-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin: 30px 30px 0 30px;
+}
+.foter-imgs{
+margin: 20px 85px 0 85px;
+align-items: center;
+}
+.foter-imgs img{
+    margin-left: 20px;
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 25px -7px rgba(0, 0, 0, 0.16);
+}
+.avatar-text{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 22px 0 10px 15px;
+}
+.foter-text1{
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+
+    margin: 10px 0 0 55px;
+}
+.foter-box1{
+    display: flex;
+    align-items: center;
+
+}
+.foter-text-box{
+    background-color: rgb(223, 223, 223);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+.foter-text-box p{
+    align-items: center;
+    margin-left: 10px;
+}
+.foter-title-box p{
+color: rgb(196, 196, 196);
+}
+.foter-line{
+    background-color: blue;
+    width: 80px;
+    height: 5px;
+    margin-left: 40px;
+    border-radius:10px ;
+}
+.foter-line1{
+    background-color: blue;
+    width: 80px;
+    height: 5px;
+    margin-left: 90px;
+    border-radius:10px ;
+}
+.foter-foter{
+    display: flex;
+    justify-content: space-between;
+}
+.foter-foter p{
+    margin: 25px 0 10px 25px;
+    font-weight: 600;
+}
+.foter-foter i{
+    margin: 25px 25px 10px 0;
+    font-weight: 600;
+}
+.foter-text-box1{
+    background-color: rgb(228, 152, 152);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+.foter-text-box1 i{
+    align-items: center;
+
+    color: rgb(207, 32, 32);
+    padding: 10px;
+    margin: 3px ;
+}
+.foter-title-box{
+    margin: 0px 10px;
+}
+.foter-text-box2{
+    background-color: rgb(122, 127, 209);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px;
+
+}
+.foter-text-box2 i{
+    align-items: center;
+    color: rgb(65, 36, 212);
+
+}
